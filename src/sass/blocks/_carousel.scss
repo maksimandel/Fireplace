@@ -1,0 +1,36 @@
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+    }
+    .slick-prev {
+        position: absolute;
+        outline: none;
+        background: url("../../icons/left.svg") center center/cover no-repeat;
+        width: 31px;
+        height: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+    }
+    .slick-active {
+        display: flex;
+        justify-content: center;
+    }
+    .slick-next {
+        position: absolute;
+        outline: none;
+        background: url("../../icons/right.svg") center center/cover no-repeat;
+        top: 50%;
+        width: 31px;
+        height: 50px;
+        transform: translateY(-50%);
+        right: -66px;
+        border: none;
+    }   
+}
