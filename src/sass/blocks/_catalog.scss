@@ -46,15 +46,15 @@
         }
     }
     &-item {
-        width: 466px;
-        height: 340px;
+        width: 300px;
+        height: 365px;
         border: 2px solid #e8e8e8;
         padding: 20px 20px 26px 20px;
         overflow: hidden;
         margin-bottom: 20px;
         &__img {
             display: block;
-            max-width: 100%;
+            max-width: 95%;
             height: 200px;
         }
         &__subtitle {
@@ -111,6 +111,9 @@
             width: calc(200% + 40px);
         }
         &__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
             width: 50%;
             margin-right: 0;
             transform: translateX(-100%);
