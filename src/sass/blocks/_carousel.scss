@@ -18,10 +18,7 @@
         left: -66px;
         border: none;
     }
-    .slick-active {
-        display: flex;
-        justify-content: center;
-    }
+
     .slick-next {
         position: absolute;
         outline: none;
@@ -32,5 +29,16 @@
         transform: translateY(-50%);
         right: -66px;
         border: none;
-    }   
+    }
+
+    .slick-slide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stick-track {
+        display: flex;
+        flex-shrink: 0;
+        overflow: hidden;
+    }
 }

@@ -1,5 +1,5 @@
 .promo {
-    height: 650px;
+    height: 750px;
     padding: 21px 0 92px 0;
     background-color: #e8e8e8;
     background-repeat: no-repeat;
@@ -10,32 +10,55 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-top: 180px;
+        margin-top: 50px;
     }
 
     &__text {
         border-left: 12px solid #f16d7f;
-        height: 164px;
+        height: 230px;
         padding-left: 12px;
     }
 
     &__header {
-        color: #222222;
-        font-size: 93px;
+        color: white;
+        text-shadow: 4px 1px 4px #000;
+        font-size: 135px;
         font-weight: 900;
-        line-height: 63px;
+        line-height: 96px;
     }
 
     &__header2 {
         color: #222222;
-        font-size: 79px;
+        font-size: 107px;
         font-weight: 900;
         letter-spacing: 1px;
+        margin: 0;
+        text-shadow: 4px 1px 4px #000;
+    }
+
+    &__header3 {
+        text-align: end;
+    }
+
+    .fireplace {
+        width: 200px;
+        height: 200px;
+    }
+
+    .chandelier {
+        width: 200px;
+        height: 200px;
+    }
+
+    .promoImgBlock {
+        display: flex;
+        flex-direction: column;
     }
 
     &__header2 span {
         color: #f16d7f;
         letter-spacing: 1px;
+        text-shadow: 4px 1px 4px #000;
     }
 
     &__subheader {
@@ -65,18 +88,5 @@
     img {
         display: block;
         margin: 0 0 38px 0;
-    }
-
-    &__link {
-        color: black;
-        font-size: 16px;
-        font-weight: 500;
-        margin-top: 18px;
-
-        a {
-            color: black;
-            text-transform: uppercase;
-            text-decoration: underline;
-        }
     }
 }
