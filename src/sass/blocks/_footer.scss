@@ -11,6 +11,9 @@
         background-color: $main-color;
         padding: 18px 68px 60px 68px;
     }
+    &__update {
+        display: none;
+    }
     &__addr {
         margin-bottom: 10px;
         color: #ffffff;
@@ -51,6 +54,5 @@
     &__social {
         display: flex;
         justify-content: space-evenly;
-
     }
 }

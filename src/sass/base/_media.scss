@@ -44,6 +44,12 @@
     .feed {
         padding: 0 20px;
     }
+    .carousel .slick-next {
+        right: 50px;
+    }
+    .carousel .slick-prev .slick-arrow {
+        left: -10px;
+    }
 
 }
 @media (max-width: 767px) {
@@ -96,9 +102,6 @@
     }
     body .footer {
         height: 300px;
-    }
-    .footer .footer__info {
-        width: 576px;
     }
     body .pageup {
         left: 43%;
@@ -229,10 +232,46 @@
         width: 320px;
         margin: 0 auto;
     }
+    .consultation .feed-form {
+        width: 100%;
+    }
+    .footer__info {
+        display: none;
+    }
+    .footer .footer__update {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #f16d7f;
+    }
+    .modal .modal__close {
+        top: 10px;
+        right: 50px;
+    }
+    .footer__social {
+        margin-top: 34px;
+    }
 }
 @media (max-width: 319px) {
     .catalog .catalog__tabs {
         flex-wrap: wrap;
+    }
+    .catalog .catalog-item {
+        height: 405px;
+    }
+    .note .note__title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .footer__info {
+        display: none;
+    }
+    .footer .footer__update {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #f16d7f;
     }
     body .container {
         max-width: 319px;
@@ -306,5 +345,16 @@
     .button_submit {
         width: 100%;
         height: 55px;
+    }
+    .footer__info {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .footer__social-item img {
+        margin-top: 0;
+    }
+    .footer .footer__social {
+        margin-top: 34px;
     }
 }
