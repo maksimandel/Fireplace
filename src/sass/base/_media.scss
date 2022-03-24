@@ -1,15 +1,69 @@
 @media (max-width: 991px) {
+    body {
+        max-width: 1024px;
+    }
     .promo__header {
-        font-size: 35px;
+        font-size: 90px;
+    }
+    .promo__header2 {
+        font-size: 85px;
+    }
+    .promo__header span {
+        font-size: 85px;
+    }
+    .advantages__subtitle {
+        font-size: 15px;
+    }
+    .advantages__wrapper {
+        padding: 0 20px;
+    }
+    .consultation .container {
+        padding: 0 20px;
+    }
+    .carousel {
+        display: none;
+    }
+    .title {
+        margin-top: 20px;
+    }
+    .promo .container {
+        max-width: 991px;
+    }
+    .header {
+        padding: 20px;
+    }
+    .promo__wrapper {
+        padding: 20px;
+    }
+    .catalog {
+        padding: 0 20px;
+    }
+    .catalog .catalog__content {
+        justify-content: space-around;
+    }
+    .feed {
+        padding: 0 20px;
     }
 
 }
 @media (max-width: 767px) {
     .container {
-        max-width: 710px;
+        max-width: 750px;
+    }
+    .promo {
+        max-width: 767px;
+    }
+    .promo__header2 {
+        font-size: 40px;
+    }
+    span {
+        font-size: 66px;
+    }
+    .promo__text {
+        height: 206px;
     }
     .promo__header {
-        font-size: 35px;
+        font-size: 66px;
     }
     .button_main {
         width: 250px;
@@ -18,12 +72,46 @@
     .title_left {
         font-size: 28px;
     }
+    .promo .chandelier {
+        width: 150px;
+        height: 150px;
+    }
+    .promo .fireplace {
+        width: 150px;
+        height: 150px;
+    }
+    .advantages__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 40% 60%;
+    }
+    .partners {
+        padding: 0 20px;
+    }
+    body .note {
+        height: 450px;
+    }
+    .map {
+        display: none;
+    }
+    body .footer {
+        height: 300px;
+    }
+    .footer .footer__info {
+        width: 576px;
+    }
+    body .pageup {
+        left: 43%;
+    }
 }
 @media (max-width: 575px) {
-    .header__logo img {
-        width: 70%;
+     .header .header__logo img {
+        width: 100%;
         margin-bottom: 0;
         margin-left: 0;
+    }
+    .promo .promo__header {
+        font-size: 72px;
     }
     .container {
         max-width: 530px;
@@ -37,7 +125,7 @@
     .button {
         font-size: 14px;
         width: 130px;
-        height: 22px;
+        height: 50px;
     }
     .header__logo {
         margin-right: -90px;
@@ -72,10 +160,82 @@
     .consultation__descr {
         font-size: 18px;
     }
+    .header__contacts {
+        flex-direction: column;
+    }
+    .header .button {
+        margin-top: 10px;
+    }
+    .promo .promo__header {
+        font-size: 50px;
+    }
+    .promo .promo__header2 span {
+        font-size: 43px;
+    }
+    .promo .promoImgBlock {
+        display: none;
+    }
+    body .promo {
+        height: 550px;
+    }
+    body .advantages {
+        height: 870px;
+    }
+    .advantages .advantages__wrapper {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 33% 37% 35%;
+    }
+    .catalog .catalog__tabs {
+        flex-wrap: wrap;
+    }
+    .catalog__tabs .catalog__tab {
+        margin-top: 10px;
+    }
+    body .consultation {
+        display: flex;
+        justify-content: center;
+    }
+    html .note {
+        height: 650px;
+    }
+    .note__buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .note__button {
+        margin-top: 10px;
+    }
+    .feed__item {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .feed__subtitle {
+        margin-top: 10px;
+    }
+    .footer__phones {
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .footer__phones .footer__phone {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+    .footer__social {
+        margin-top: 30px;
+    }
+    .footer__info .footer__addr {
+        font-size: 15px;
+        width: 320px;
+        margin: 0 auto;
+    }
 }
 @media (max-width: 319px) {
-    .container {
-        max-width: 306px;
+    .catalog .catalog__tabs {
+        flex-wrap: wrap;
+    }
+    body .container {
+        max-width: 319px;
     }
     .header__logo img {
         width: 53%;

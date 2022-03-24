@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Люстры и Камины</title>
 	<link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
@@ -47,31 +47,31 @@
 		<div class="container">
 			<h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
 			<div class="advantages__wrapper">
-				<div class="advantages__item">
+				<div class="advantages__item .advantages__item1">
 					<img src="icons/advantages/delivery_icon.svg" alt="delivery" class="advantages__icon">
 					<div class="advantages__subtitle">
 						Доставим на дом
 					</div>
 				</div>
-				<div class="advantages__item">
+				<div class="advantages__item .advantages__item2">
 					<img src="icons/advantages/quality_icon.svg" alt="quality" class="advantages__icon advantages__quality">
 					<div class="advantages__subtitle">
 						Гарантия качества
 					</div>
 				</div>
-				<div class="advantages__item">
+				<div class="advantages__item .advantages__item3">
 					<img src="icons/advantages/sale_icon.svg" alt="sale" class="advantages__icon">
 					<div class="advantages__subtitle">
 						Скидки
 					</div>
 				</div>
-				<div class="advantages__item">
+				<div class="advantages__item .advantages__item4">
 					<img src="icons/advantages/credit.svg" alt="sale" class="advantages__icon">
 					<div class="advantages__subtitle">
 						Рассрочка платежа
 					</div>
 				</div>
-				<div class="advantages__item">
+				<div class="advantages__item .advantages__item5">
 					<img src="icons/advantages/payment.svg" alt="sale" class="advantages__icon">
 					<div class="advantages__subtitle">
 						Кредит 0%
@@ -285,7 +285,7 @@
 				<div class="catalog-item">
 					<div class="catalog-item__wrapper">
 						<div class="catalog-item__content catalog-item__content_active">
-							<img src="./img/market/hearth1.jpg" alt="fireplace" class="catalog-item__img">
+							<img src="./img/market/hearth1.jpg" alt="fireplace" class="catalog-item__img catalog-item__imgHearth">
 							<div class="catalog-item__subtitle">Majestic FX Brass</div>
 							<a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
 						</div>
@@ -309,7 +309,7 @@
 				<div class="catalog-item">
 					<div class="catalog-item__wrapper">
 						<div class="catalog-item__content catalog-item__content_active">
-							<img src="./img/market/hearth.jpg" alt="fireplace" class="catalog-item__img">
+							<img src="./img/market/hearth.jpg" alt="fireplace" class="catalog-item__img catalog-item__imgHearth">
 							<div class="catalog-item__subtitle">Fobos FX Black</div>
 							<a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
 						</div>
@@ -333,7 +333,7 @@
 				<div class="catalog-item">
 					<div class="catalog-item__wrapper">
 						<div class="catalog-item__content catalog-item__content_active">
-							<img src="./img/market/hearth2.jpg" alt="fireplace" class="catalog-item__img">
+							<img src="./img/market/hearth2.jpg" alt="fireplace" class="catalog-item__img catalog-item__imgHearth">
 							<div class="catalog-item__subtitle">Majestic FX Black</div>
 							<a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
 						</div>
@@ -357,7 +357,7 @@
 				<div class="catalog-item">
 					<div class="catalog-item__wrapper">
 						<div class="catalog-item__content catalog-item__content_active">
-							<img src="./img/market/hearth3.jpg" alt="fireplace" class="catalog-item__img">
+							<img src="./img/market/hearth3.jpg" alt="fireplace" class="catalog-item__img catalog-item__imgHearth">
 							<div class="catalog-item__subtitle">Fobos FX Brass</div>
 							<a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
 						</div>
@@ -381,7 +381,7 @@
 				<div class="catalog-item">
 					<div class="catalog-item__wrapper">
 						<div class="catalog-item__content catalog-item__content_active">
-							<img src="./img/market/hearth4.jpg" alt="fireplace" class="catalog-item__img">
+							<img src="./img/market/hearth4.jpg" alt="fireplace" class="catalog-item__img catalog-item__imgHearth">
 							<div class="catalog-item__subtitle">Majestic FX M Brass</div>
 							<a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
 						</div>
@@ -405,7 +405,7 @@
 				<div class="catalog-item">
 					<div class="catalog-item__wrapper">
 						<div class="catalog-item__content catalog-item__content_active">
-							<img src="./img/market/hearth5.jpg" alt="fireplace" class="catalog-item__img">
+							<img src="./img/market/hearth5.jpg" alt="fireplace" class="catalog-item__img catalog-item__imgHearth">
 							<div class="catalog-item__subtitle">Majestic FX M Black</div>
 							<a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
 						</div>
@@ -726,9 +726,12 @@
 	<section class="note">
 		<div class="container">
 			<div class="partners">
+				<h2 class="title note__title">Каталоги</h2>
 				<h2 class="partners__text">С полным ассортиментом Вы можете ознакомиться в каталогах компаний партнёров, предоставленные в них электрокамины доступны для заказа в наших магазинах</h2>
-				<a href="https://royalflame.ru/catalog/" target="_blank">RoyalFlame</a>
-				<a href="https://realflame.ru/115-katalog" target="_blank">RealFlame</a>
+				<div class="note__buttons">
+					<button class="button note__button"><a href="https://royalflame.ru/catalog/" class="note__link" target="_blank">RoyalFlame</a></button>
+					<button class="button note__button"><a href="https://realflame.ru/115-katalog" class="note__link" target="_blank">RealFlame</a></button>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -762,7 +765,10 @@
 	</section>
 
 	<footer class="footer">
-		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A188975948517412ffecb71559301057c0acc1b8b3bf1c5e9488d18734c5fdad2&amp;width=100%25&amp;height=720&amp;lang=ru_RU&amp;scroll=false"></script>		<div class="footer__info">
+		<div class="map">
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A188975948517412ffecb71559301057c0acc1b8b3bf1c5e9488d18734c5fdad2&amp;width=100%25&amp;height=720&amp;lang=ru_RU&amp;scroll=false"></script>
+		</div>
+		<div class="footer__info">
 			<address class="footer__addr">г. Архангельск, ул. Гагарина 46, ТЦ "БУМ", 2-ой вход, левое крыло</address>
 			<address class="footer__addr">г. Архангельск, ул. Розинга 10, ТРЦ "РИО", 1 этаж</address>
 			<div class="footer__phones">

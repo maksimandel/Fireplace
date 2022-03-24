@@ -1,11 +1,37 @@
 .note {
   margin-bottom: 90px;
-  height: 300px;
+  height: 400px;
   background-color: #e8e8e8;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  &__buttons {
+    margin-top: 20px;
+  }
+  &__button {
+    width: 210px;
+    height: 55px;
+  }
+  &__link {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  &__title {
+    margin-top: 65px;
+  }
+}
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .partners__text {
+  text-align: center;
   padding-top: 20px;
+}
+.note .container {
+  display: flex;
+  justify-content: center;
 }
